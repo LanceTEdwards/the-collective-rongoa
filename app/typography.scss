@@ -1,0 +1,8 @@
+@mixin collective-font {
+  @font-face {
+    font-family: 'CollectiveFont';
+    src: url('/fonts/gillsansnovainline_bold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }
+}

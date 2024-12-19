@@ -1,0 +1,27 @@
+@use "/Users/edwardsl/Desktop/the-collective-rongoa/app/typography.scss" as *;
+
+.header {
+  width: 100%;
+  background-color: white;
+  padding: 2rem;
+  display: flex;
+
+  &__logoTitleContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 6rem;
+    height: 4rem;
+  }
+
+  &__title {
+    padding-left: 2rem;
+
+    & {
+      font-family: "CollectiveFont";
+    }
+  }
+}

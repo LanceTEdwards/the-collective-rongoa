@@ -1,0 +1,16 @@
+.HeaderDropDown {
+    &__itemsVisible {
+        display: flex;
+        flex-direction: column;
+        list-style-type: none;
+    }
+
+    &__items a {
+        text-decoration: none;
+        color: black;
+    }
+
+    &__itemsHidden {
+        display: none;
+    }
+}
