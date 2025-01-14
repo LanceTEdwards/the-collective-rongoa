@@ -6,15 +6,14 @@ export default function headerMenu() {
   return (
     <nav className={styles.HeaderMenu}>
       <ul className={styles.HeaderMenu__menuItems}>
-        <li>
-          <Link href="#" className={styles.HeaderMenu__menuItem}>Home</Link>
+        <li className={styles.HeaderMenu__menuItem}>
+          <Link href="#" className={styles.HeaderMenu__menuLink}>Home</Link>
         </li>
-        <li>
-          <button className={styles.HeaderMenu__menuItem}>More</button>
+        <li className={styles.HeaderMenu__menuItem}>
           <HeaderDropDown />
         </li>
-        <li>
-          <Link href="#" className={styles.HeaderMenu__menuItem}>About Us</Link>
+        <li className={styles.HeaderMenu__menuItem}>
+          <Link href="#" className={styles.HeaderMenu__menuLink}>About Us</Link>
         </li>
       </ul>
     </nav>

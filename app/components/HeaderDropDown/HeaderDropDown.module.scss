@@ -1,16 +1,35 @@
+@use '../../typography.module.scss' as *;
+
 .HeaderDropDown {
-    &__itemsVisible {
-        display: flex;
-        flex-direction: column;
-        list-style-type: none;
-    }
+  @include content-font;
 
-    &__items a {
-        text-decoration: none;
-        color: black;
-    }
+  &__item {
+    @include content-font;
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
 
-    &__itemsHidden {
-        display: none;
+  &__linkContainer {
+   display: none;
+  }
+
+  &__linkContainerOpen {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    left: 36.5rem;
+    top: 5rem;
+  }
+
+  &__link {
+    color: black;
+    text-decoration: none;
+    &:not(:last-child) {
+      padding-bottom: 1rem;
     }
+  }
 }
