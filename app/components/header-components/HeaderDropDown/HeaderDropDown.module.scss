@@ -1,4 +1,4 @@
-@use '../../typography.module.scss' as *;
+@use '../../../typography.module.scss' as *;
 
 .HeaderDropDown {
   @include content-font;
@@ -11,18 +11,17 @@
   }
 
   &__linkContainer {
-   display: none;
+    display: none;
   }
 
   &__linkContainerOpen {
-    display: flex;
     position: absolute;
+    display: flex;
     flex-direction: column;
     border: 1px solid black;
     border-radius: 0.5rem;
     padding: 0.5rem;
-    left: 36.5rem;
-    top: 5rem;
+    margin-top: 1rem;
   }
 
   &__link {
