@@ -1,5 +1,5 @@
-'use client';
-import { useRef, useState } from 'react';
+"use client";
+import { useRef, useState } from "react";
 import styles from "./HeaderDropDown.module.scss";
 import Link from "next/link";
 
@@ -25,7 +25,7 @@ export default function HeaderDropDown() {
         id="dropdown-menu"
         ref={menuRef}
         className={`${styles.HeaderDropDown__linkContainer} ${
-          isOpen ? styles.HeaderDropDown__linkContainerOpen : ''
+          isOpen ? styles.HeaderDropDown__linkContainerOpen : ""
         }`}
       >
         <Link href="#" className={styles.HeaderDropDown__link}>
