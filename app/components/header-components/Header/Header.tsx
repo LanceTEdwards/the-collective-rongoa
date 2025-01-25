@@ -1,6 +1,6 @@
-import styles from "./header.module.scss";
+import styles from "./Header.module.scss";
 import Image from "next/image";
-import HeaderMenu from "/Users/edwardsl/Desktop/the-collective-rongoa/app/components/header-components/HeaderMenu/HeaderMenu";
+import HeaderMenu from "../HeaderMenu/HeaderMenu";
 import HeaderShop from "../HeaderShop/HeaderShop";
 
 export default function Header() {
