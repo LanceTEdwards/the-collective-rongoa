@@ -1,0 +1,31 @@
+@use '../../../typography.module.scss' as *;
+
+.Herobanner {
+  width: 100%;
+
+  &__image {
+    position: absolute;
+    opacity: 0.4;
+    background-image: url('../../../../public/Rongoa-Maori-1747x1200.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10rem;
+    width: 100%;
+  }
+
+  &__title {
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+    padding: 4rem;
+  }
+
+  &__description {
+    position: absolute;
+    width: 100%;
+    @include content-font;
+    text-align: center;
+    font-size: large;
+  }
+}
