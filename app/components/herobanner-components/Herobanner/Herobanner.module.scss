@@ -2,11 +2,10 @@
 
 .Herobanner {
   width: 100%;
+  margin-bottom: 6rem;
 
   &__image {
-    position: absolute;
-    opacity: 0.4;
-    background-image: url('../../../../public/Rongoa-Maori-1747x1200.png');
+    background-image: url('../../../../public/Frame1.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,11 +17,10 @@
     text-align: center;
     font-size: 3rem;
     color: black;
-    padding: 4rem;
+    padding-bottom: 4rem;
   }
 
   &__description {
-    position: absolute;
     width: 100%;
     @include content-font;
     text-align: center;

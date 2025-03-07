@@ -1,0 +1,40 @@
+@use '../../typography.module.scss' as *;
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3rem;
+    width: 100%;
+    padding: 1rem;
+    
+    &__container {
+        display: grid;
+        border-radius: 1rem;
+        background-color: #F5DEB3;
+    }
+
+    &__image {
+        width: 100%;
+        border-radius: 1rem 1rem 0 0;
+        aspect-ratio: 1.77;
+    }
+
+    &__cardInfo {
+        @include content-font;
+        padding: 0.8rem;
+    }
+
+    &__title {
+        padding-bottom: 0.5rem;
+    }
+
+    &__description {
+        font-weight: 400;
+        padding-bottom: 0.5rem;
+        border-bottom: 1px solid black
+    }
+
+    &__price {
+        padding-top: 0.5rem;
+    }
+}

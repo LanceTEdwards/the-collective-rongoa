@@ -1,0 +1,58 @@
+{
+    "cards": [
+        {
+            "image":"/RongoaItem1.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem2.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem3.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem1.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem2.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem3.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem1.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem2.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        },
+        {
+            "image":"/RongoaItem3.png",
+            "title":"Title",
+            "description":"This is where the product description will go",
+            "price":"$100.00"
+        }
+    ]
+}
